@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Daftar Produk</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                product
+              </a>
+              <ul class="dropdown-menu">
+                
+                <li><a class="dropdown-item" href="#sayur">sayuran sayuran</a></li>
+                <li><a class="dropdown-item" href="#buah">buah buahan</a></li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- crousel -->
+    <div id="carouselExampleCaptions" class="carousel slide"   data-bs-ride="carousel " >
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/bgr1.jpg" class="d-block w-100 "  style="height: 500px;" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Sayur Sayuran</h5>
+            <p>Sayur Sayuran fresh & segar</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/bg3.jpg" class="d-block w-100" style="height: 500px;"  alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Buah buahan</h5>
+            <p>Buah buahan fresh & segar</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/kurir.jpg" class="d-block w-100" style="height: 500px;"  alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Pengiriman Cepat</h5>
+            <p>Pengiriman cepat dan tepat waktu</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- end carousel -->
+    <!-- card -->
+    <h1 class="text-center" id="sayur">Sayur Sayuran</h1>
+    <div  class="container text-center">
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="card my-4" style="width: 18rem;">
+            <img src="image/kol.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Brokoli</h5>
+              <p class="card-text"> Dengan kandungan nutrisi yang tinggi,contohnya memperlambat proses penuaan</p>
+              <p class="card-text">Harga: rp.55.000,-</p>
+              <a href="#" class="btn btn-primary">Lihat Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col ">
+          <div class="card  my-4" style="width: 18rem;">
+            <img src="image/tomat.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">tomat</h5>
+              <p class="card-text"> Dengan kandungan nutrisi yang tinggi,contohnya menurunkan tekanan darah</p>
+              <p class="card-text">Harga: rp.35.000,-</p>
+              <a href="#" class="btn btn-primary">Lihat Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card  my-4" style="width: 18rem;">
+            <img src="image/carrots-673184_1280.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">wortel</h5>
+              <p class="card-text"> wortel mengandung beta karoten,serat,dan air yang cukup tinggi,dan sehat bagi mata kita</p>
+              <p class="card-text">Harga: rp.45.000,-</p>
+              <a href="#" class="btn btn-primary">Lihat Detail</a>
+            </div>
+          </div>
+        </div>
+        <h1 class="text-center" id="buah">Buah Buahan</h1>
+        <div class="container text-center">
+          <div class="row align-items-center">
+            <div class="col">
+              <div class="card my-4" style="width: 18rem;">
+                <img src="image/anggr.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">anggur</h5>
+              <p class="card-text"> anggur mengandung berbagai nutrisi yang cukup penting untuk kesehatan tubuh</p>
+              <p class="card-text">Harga: rp.85.000,-</p>
+              <a href="#" class="btn btn-primary">Lihat Detail</a>
+                </div>
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card  my-4" style="width: 18rem;">
+                <img src="image/aple.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">apel</h5>
+                  <p class="card-text"> buah apel adalah buah yang kaya nutrisi dan kelebihan yang lainnya dapat meningkatkan otak</p>
+                  <p class="card-text">Harga: rp.45.000,-</p>
+                  <a href="#" class="btn btn-primary">Lihat Detail</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card  my-4" style="width: 18rem;">
+                <img src="image/str.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">strowberry</h5>
+                  <p class="card-text"> strowberry mengandung banyak nutrisi yang baik bagi kesehatan kita</p>
+                  <p class="card-text">Harga: rp.65.000,-</p>
+                  <a href="#" class="btn btn-primary">Lihat Detail</a>
+                </div>
+              </div>
+            </div>
+        
+      </div>
+    </div>
+    <!-- end card -->
+    <!-- footer -->
+    <footer id="contact" class="bg-dark text-center text-white py-4">
+      <div class="container ">
+        <div class="row ">
+          <div class="col-md-4">
+            <h4>Tentang Kami</h4>
+            <p>Toko buah dan sayuran terlengkap dan kualitas terbaik dan halal</p>
+          </div>
+          <div class="col-md-4">
+            <h4>Kontak</h4>
+            <p>Email: nh238640@gmail.com <br>Telepon: 081214012274</p>
+          </div>
+          <div class="col-md-4">
+            <h4>Ikuti Kami</h4>
+            <a href="#" class="btn btn-outline-light">Facebook</a>
+            <a href="#" class="btn btn-outline-light">Telegram</a>
+            <a href="#" class="btn btn-outline-light">Instagram</a>
+          </div>
+
+        </div>
+        <p class="mt-4">&copy; 2023 Toko Buah Segar</p>
+      </div>
+    </footer>
+
+    <!-- end footer -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+img{
+    object-fit: cover;
+    object-position: center;
+}
+.card{
+    margin: auto;
+}
+h1{
+    padding: 10px 0;
+}
+body{
+    text-transform: capitalize;
+}
+.carousel-indicators{
+    margin-top: 10px;
+}
